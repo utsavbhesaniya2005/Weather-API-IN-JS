@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Information System</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Weather Information</h1>
+        </header>
+
+        <div class="search-city">
+            <label for="checkWeather">Enter City:</label>
+            <input type="text" id="checkWeather" placeholder="Enter city to check weather Example. Surat" value="Surat">
+            <button class="btn" onclick="getLocation()">Search</button>
+        </div>
+
+        <div class="weather-container" id="currentWeather">
+        </div>
+
+        <footer>
+            <p>2024 Weather Information System</p>
+        </footer>
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
